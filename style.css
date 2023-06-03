@@ -1,0 +1,96 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+}
+
+.mode{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.rate{
+    width: 40px;
+    height: 15px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 5px;
+    
+}
+
+.rate .point{
+    background-color:black;
+    width: 20px;
+    height: 15px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.mode-btn{
+    color: white;
+    transition: 0.4s ease;
+}
+
+.mode-btn:hover{
+    cursor: pointer;
+    color: rgb(221, 218, 218);
+}
+
+
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    background-color:rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.4s ease;
+}
+
+#inner-text{
+    width: 80px;
+    height: 60px;
+    border: none;
+    font-size: 40px;
+    color: black;
+    outline: none;
+    
+}
+
+.btn{
+    width: 70px;
+    height: 100px;
+    font-size: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.minus-btn{
+    background-color: red;
+}
+
+.plass-btn{
+    background-color: green;
+}
+
